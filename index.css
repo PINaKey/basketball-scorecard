@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'cursed-timer';
+    font-family: "cursed-timer";
     src: url("CursedTimerUlil-Aznm.ttf");
 }
 
@@ -14,6 +14,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .teams {
@@ -23,7 +25,7 @@ body {
 .team-name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    color: #EEEEEE;
+    color: #eeeeee;
     text-shadow: 0px 0px 5px black;
 }
 
@@ -32,8 +34,8 @@ body {
     font-family: cursed-timer;
     font-size: 90px;
     font-weight: 400;
-    color: #F94F6D;
-    border: 2px solid #F94F6D;
+    color: #f94f6d;
+    border: 2px solid #f94f6d;
     text-shadow: 0px 0px 5px black;
 }
 
@@ -44,16 +46,16 @@ body {
     border-radius: 5px;
     color: #059669;
     font-family: cursed-timer;
-    background: #D1FAE5;
+    background: #d1fae5;
 }
 
 .reset-btn {
     margin: 30px 0;
     padding: 5px 6px;
     background: none;
-    border: 2px solid #D97706;
+    border: 2px solid #d97706;
     border-radius: 5px;
-    color: #D97706;
+    color: #d97706;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #FEF3C7;
+    background: #fef3c7;
 }
