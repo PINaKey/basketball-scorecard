@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'cursed-timer';
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-image: url("basketball.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teams {
+    text-align: center;
+}
+
+.team-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    text-shadow: 0px 0px 5px black;
+}
+
+.team-score {
+    padding: 5px;
+    font-family: cursed-timer;
+    font-size: 90px;
+    font-weight: 400;
+    color: #F94F6D;
+    border: 2px solid #F94F6D;
+    text-shadow: 0px 0px 5px black;
+}
+
+.score-btn {
+    padding: 5px 6px;
+    background: none;
+    border: 2px solid #059669;
+    border-radius: 5px;
+    color: #059669;
+    font-family: cursed-timer;
+    background: #D1FAE5;
+}
+
+.reset-btn {
+    margin: 30px 0;
+    padding: 5px 6px;
+    background: none;
+    border: 2px solid #D97706;
+    border-radius: 5px;
+    color: #D97706;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #FEF3C7;
+}
